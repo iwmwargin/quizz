@@ -61,7 +61,7 @@ function updateTimer() {
 function handleGameOver() {
   // Perform any necessary actions when the game is over due to time running out
   // For example, redirect to the end page or display a game over message
-  window.location.assign('/end.html');
+  window.location.assign('./end.html');
 }
 
 getNewQuestion = () => {
